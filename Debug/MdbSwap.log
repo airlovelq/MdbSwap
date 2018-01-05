@@ -1,48 +1,5 @@
-﻿生成启动时间为 2018/1/5 14:14:34。
-     1>项目“E:\Learn\MdbSwap\MdbSwap\MdbSwap.vcxproj”在节点 2 上(rebuild 个目标)。
-     1>_PrepareForClean:
-         正在删除文件“Debug\MdbSwap.lastbuildstate”。
-       InitializeBuildStatus:
-         正在创建“Debug\MdbSwap.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-       CustomBuild:
-         Moc'ing mdbswap.h...
-         Uic'ing mdbswap.ui...
-         Rcc'ing mdbswap.qrc...
-     1>RCC : warning : No resources in 'E:\Learn\MdbSwap\MdbSwap\mdbswap.qrc'.
-         
-       ClCompile:
-         D:\Visual Studio 2010\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include /I.\GeneratedFiles\Debug /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtCore /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtGui /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtQml /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtQuick /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtSql /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtWidgets /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtXml /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_QUICK_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MdbSwap.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         D:\Visual Studio 2010\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include /I.\GeneratedFiles\Debug /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtCore /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtGui /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtQml /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtQuick /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtSql /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtWidgets /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtXml /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_QUICK_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MdbSwap.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_mdbswap.cpp main.cpp mdbswap.cpp SwapOp.cpp
-         moc_mdbswap.cpp
-         main.cpp
-         mdbswap.cpp
-         SwapOp.cpp
-     1>SwapOp.cpp(121): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“QVariant::Type”
-     1>SwapOp.cpp(129): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“QVariant::Type”
-     1>SwapOp.cpp(168): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“QVariant::Type”
-     1>SwapOp.cpp(175): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“QVariant::Type”
-         正在生成代码...
-         D:\Visual Studio 2010\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include /I.\GeneratedFiles\Debug /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtCore /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtGui /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtQml /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtQuick /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtSql /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtWidgets /ID:\Qt\Qt5.0.0\5.0.0\msvc2010\include\QtXml /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_QUICK_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_mdbswap.cpp
-         qrc_mdbswap.cpp
-       ResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\MdbSwap.res" MdbSwap.rc 
-       Link:
-         D:\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Learn\MdbSwap\Win32\Debug\\MdbSwap.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.0.0\5.0.0\msvc2010\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Qmld.lib Qt5Quickd.lib Qt5Sqld.lib Qt5Widgetsd.lib Qt5Xmld.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MdbSwap.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Learn\MdbSwap\Win32\Debug\MdbSwap.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Learn\MdbSwap\Win32\Debug\MdbSwap.lib" /MACHINE:X86 Debug\MdbSwap.res
-         Debug\moc_mdbswap.obj
-         Debug\qrc_mdbswap.obj
-         Debug\main.obj
-         Debug\mdbswap.obj
-         Debug\stdafx.obj
-         Debug\SwapOp.obj
-         MdbSwap.vcxproj -> E:\Learn\MdbSwap\Win32\Debug\MdbSwap.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Learn\MdbSwap\Win32\Debug\\MdbSwap.exe;#1" /manifest Debug\MdbSwap.exe.intermediate.manifest
-       FinalizeBuildStatus:
-         正在删除文件“Debug\MdbSwap.unsuccessfulbuild”。
-         正在对“Debug\MdbSwap.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“E:\Learn\MdbSwap\MdbSwap\MdbSwap.vcxproj”(rebuild 个目标)的操作。
+﻿生成启动时间为 2018/1/5 14:41:53。
 
 生成成功。
 
-已用时间 00:00:03.56
+已用时间 00:00:00.00
