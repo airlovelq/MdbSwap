@@ -111,6 +111,7 @@ int CSqliteSwapOp::DoSwap()
 				QString value = rec.value(j).toString();
 
 				sqlCreateTbl += fieldName;
+				//目前先只支持整型，浮点，字符串三种
 				switch (variant.type())
 				{
 				case QVariant::Int:
@@ -159,6 +160,7 @@ int CSqliteSwapOp::DoSwap()
 			    {
 				    QVariant variant = rec.value(j);
 				    QString value = rec.value(j).toString();
+					//目前先只支持整型，浮点，字符串三种
 					switch (variant.type())
 				    {
 				    case QVariant::Int:
